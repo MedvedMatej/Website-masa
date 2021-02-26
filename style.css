@@ -3,8 +3,8 @@
   font-family: 'Permanent Marker', cursive;
   --text-primary: #ececec;
   --text-secondary: #fbfbfb;
-  --bg-primary: #fabfff;
-  --bg-secondary: #f290ff;
+  --bg-primary: #ff92c5;
+  --bg-secondary: #EB608F;
   --transition-speed: 600ms;
 }
 
@@ -59,6 +59,7 @@ main {
   display: flex;
   align-items: center;
   height: 5rem;
+  margin: auto;
   color: var(--text-primary);
   text-decoration: none;
   filter: grayscale(100%) opacity(0.7);
@@ -71,6 +72,7 @@ main {
   color: var(--text-secondary);
 }
 
+
 .link-text {
   display: none;
   margin-left: 1rem;
@@ -82,46 +84,24 @@ main {
   margin: 0 1.5rem;
 }
 
-.fa-primary {
-  color: #ff7eee;
-}
-
-.fa-secondary {
-  color: #df49a6;
-}
-
-.fa-primary,
-.fa-secondary {
-  transition: var(--transition-speed);
-}
 
 .logo {
-  font-weight: bold;
-  text-transform: uppercase;
   margin-bottom: 1rem;
-  text-align: center;
-  color: var(--text-secondary);
   background: var(--bg-secondary);
-  font-size: 1rem;
-  letter-spacing: 0.3ch;
   width: 100%;
 }
 
-.logo svg {
-  transform: rotate(0deg);
-  transition: var(--transition-speed);
+.nav-logo {
+  display: flex;
+  align-items: center;
+  height: 10rem;
 }
 
-.logo-text
-{
-  display: inline;
-  position: absolute;
-  left: -999px;
+.nav-logo svg {
+  width: 4rem;
+  min-width: 4rem;
+  margin: 0 0.5rem;
   transition: var(--transition-speed);
-}
-
-.navbar:hover .logo svg {
-  transform: rotate(-180deg);
 }
 
 
@@ -133,8 +113,9 @@ main {
     height: 5rem;
   }
 
-  .logo {
-    display: none;
+  .nav-logo{
+    justify-content: center;
+    margin-top: 1rem;
   }
 
   .navbar-nav {
@@ -168,7 +149,8 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 11rem;
+    margin-left: 2.5rem;
+    width: 11rem;
   }
 
   .navbar:hover .logo-text
@@ -193,6 +175,7 @@ main {
 
 .btn span {
   cursor: pointer;
+  color: white;
   display: inline-block;
   position: relative;
   transition: var(--transition-speed);
@@ -220,7 +203,7 @@ main {
 .container {
   height: 100vh;
   width: 100%;
-  background-color: #ffe0ff;
+  background-color: #fff0f4;
 }
 
 .content h1{
