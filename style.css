@@ -1,11 +1,13 @@
 :root {
   font-size: 16px;
   font-family: 'Permanent Marker', cursive;
+  --transition-speed: 600ms;
   --text-primary: #ececec;
   --text-secondary: #fbfbfb;
   --bg-primary: #ff92c5;
   --bg-secondary: #EB608F;
-  --transition-speed: 600ms;
+  --background: #fff0f4;
+  
 }
 
 body {
@@ -54,6 +56,9 @@ main {
   width: 100%;
 }
 
+.nav-item:last-child {
+  margin-top: auto;
+}
 
 .nav-link {
   display: flex;
@@ -203,7 +208,8 @@ main {
 .container {
   height: 100vh;
   width: 100%;
-  background-color: #fff0f4;
+  /*background-color: #fff0f4; */
+  background-color:var(--background);
 }
 
 .content h1{
