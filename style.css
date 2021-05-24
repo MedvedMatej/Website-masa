@@ -324,3 +324,31 @@ nav{
   letter-spacing: 2;
   font-family: 'Permanent Marker', cursive;
 }
+ .aboutme{
+    background-color: white;
+    border-radius: 10px;
+    width: 800px;
+    padding: 20px;
+} 
+
+.jst{
+  float: right;
+  position: relative;
+  left: 100px;
+  top: -60px;
+}
+.jst img{
+ border-radius: 10px;
+}
+
+.aboutme span {
+  font-size:25px;
+}
+.aboutme-container{
+  position: relative;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+}
