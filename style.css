@@ -363,6 +363,7 @@ nav{
 
 .box h1{
   margin-top:130px;
+
 }
 
 
@@ -386,17 +387,52 @@ nav{
   width:1000px;
   height: 600px;
   border-radius: 5px;
+  padding:10px;
 }
 
 .Lunaandme{
   float: right;
   position: relative;
   left: 100px;
-  top: -280px;
+  top: -100px;
 }
 .Lunaandme img{
  border-radius: 10px;
 }
+
+.Lunaandme2{
+  float: right;
+  position: relative;
+  left: -150px;
+  top: 50px;
+}
+
+.Lunaandme2 img{
+  border-radius: 10px;
+}
+
 .post{
  text-align: center;
+}
+
+.project{
+  float: left;
+  position: relative;
+  left: -50px;
+  top: -100px;
+}
+
+.project img{
+  border-radius: 10px;
+}
+
+.project2{
+  float: right;
+  position: relative;
+  left: 50px;
+  top: 60px;
+}
+
+.project2 img{
+  border-radius: 10px;
 }
