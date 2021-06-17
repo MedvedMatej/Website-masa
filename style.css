@@ -436,3 +436,7 @@ nav{
 .project2 img{
   border-radius: 10px;
 }
+.cvetovi{
+  background-image: url("cvetovi.png");
+  height: 100vh;
+}
